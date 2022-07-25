@@ -1,0 +1,30 @@
+.pacman {
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;   
+    position: absolute;
+    margin: 5px;
+}
+
+.cell_field {
+    background-color: black;
+    width: 75px;
+    height: 75px;
+}
+
+table {
+    border: solid 1px;
+    position: relative;
+}
+tr {
+    border: solid 1px;
+    width: 74px;
+    height: 74px;
+}
+td {
+    border: solid 1px;
+    width: 74px;
+    height: 74px;
+}
+

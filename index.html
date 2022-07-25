@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pacman</title>
+<meta charset="utf-8">
+<meta name="description" content="Game">
+<meta name="keywords" content="JaveScript Pacman">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./styles/main.css">
+
+
+<body>
+<input class="cells">
+<button class="cellButton">Generate obstacal</button>
+
+<div class="arena">
+    
+</div>
+
+<h2>Вибери розмір сітки</h2>
+<form>
+    Grid Height:
+    <input type="number" id="inputHeight" name="height" min="1" value="1">
+    Grid Width
+    <input type="number" id="inputWidth" name="width" min="1" value="1">
+    
+</form>
+<table id="pixelCanvas">
+    <div class="pacman"></div> 
+</table>
+
+<button class="submit">make Canva</button>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
